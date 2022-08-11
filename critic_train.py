@@ -13,7 +13,7 @@ from utils.tensor_utils import to_tensor
 Here we randomly generated some substructures and use rollout mean as the groundtruth.
 """
 
-wandb.login()
+wandb.login(key="37f3de06380e350727df28b49712f8b7fe5b14aa")
 wandb.init(project="Substructure_Critic", entity="kly20")
 
 memory_params=config.memory_params
